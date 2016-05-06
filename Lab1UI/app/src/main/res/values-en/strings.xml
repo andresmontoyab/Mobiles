@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab1UI</string>
+    <string name="nombres">Name</string>
+    <string name="apellidos">Lastname</string>
+    <string name="sexo">Sex</string>
+    <string name="telefono">Phone</string>
+    <string name="direccion">Address</string>
+    <string name="pais">Country</string>
+    <string name="correo">Email</string>
+    <string name="actividades">Hobbies</string>
+    <string name="favorito">Favorite</string>
+    <string name="fecha">Date</string>
+    <string name="shombre">Man</string>
+    <string name="smujer">Woman</string>
+    <string name="guardar">Guardar</string>
+
+    <string name="select">Selected</string>
+
+    <string name="string1">User</string>
+    <string name="string2">reside in the country of</string>
+    <string name="string3">with direction</string>
+    <string name="string4">and have the phone</string>
+    <string name="string5">besides your email is</string>
+    <string name="string6">Your sex is</string>
+    <string name="string7">and you\'re a user</string>
+    <string name="string8">no</string>
+    <string name="string9">Your hobbie is</string>
+    <string name="string10">and the date is</string>
+
+    <string name="musica">Music</string>
+    <string name="desarrollar">Develop</string>
+    <string name="video">Video games</string>
+    <string name="ejercicio">Exercise</string>
+    <string name="estudiar">Study</string>
+    <string name="viajar">Travel</string>
+</resources>

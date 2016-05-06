@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Lab1UI</string>
+    <string name="nombres">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="sexo">Sexo</string>
+    <string name="telefono">Telefono</string>
+    <string name="direccion">Direccion</string>
+    <string name="pais">Pais</string>
+    <string name="correo">Correo</string>
+    <string name="actividades">Hobbies</string>
+    <string name="favorito">Favorito</string>
+    <string name="fecha">Fecha</string>
+    <string name="shombre">Hombre</string>
+    <string name="smujer">Mujer</string>
+    <string name="guardar">Guardar</string>
+    <string name="select">Seleccionado</string>
+
+    <string name="string1">El usuario</string>
+    <string name="string2">reside en el pais de</string>
+    <string name="string3">con la dirección</string>
+    <string name="string4">y tiene el teléfono</string>
+    <string name="string5">además su correo electrónico es</string>
+    <string name="string6">Su sexo es</string>
+    <string name="string7">y usted es un usuario</string>
+    <string name="string8">no</string>
+    <string name="string9">Tu hobbie es</string>
+    <string name="string10">y la fecha es</string>
+
+    <string name="musica">Música</string>
+    <string name="desarrollar">Desarrollar</string>
+    <string name="video">Video Juegos</string>
+    <string name="ejercicio">Ejercicio</string>
+    <string name="estudiar">Estudiar</string>
+    <string name="viajar">Viajar</string>
+
+</resources>
