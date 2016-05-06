@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="lab2apprun.gr2.compumovil.udea.edu.co.lab2apprun.AdicionUser"
+    tools:showIn="@layout/activity_adicion_user">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="Regristo de cuenta"
+        android:layout_marginLeft="65dp"
+        android:textSize="25dp"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:text="Usuario"
+        android:textSize="25dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:hint="Usuario"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="Contraseña"
+        android:textSize="25dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:id="@+id/pass"
+         />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="Correo Electronico"
+        android:textSize="25dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="udea@gmail.com"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="Registrarse"
+        android:layout_marginTop="80dp"
+        android:onClick="InsertarUser"/>
+
+
+
+</LinearLayout>
