@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.destebanalvarez.myapplication.Menu"
+    android:background="#9d7c7c">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/iniciar"
+        android:id="@+id/go"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/men"
+        android:onClick="goPomodoro"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/conf"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/go"
+        android:onClick="goConf"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/conf"
+        />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Menu"
+      android:textSize="50dp"
+      android:layout_marginTop="60dp"
+      android:id="@+id/men"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:textColor="#ffffff" />
+</RelativeLayout>

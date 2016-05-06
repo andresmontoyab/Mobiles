@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.destebanalvarez.myapplication.Settings"
+    android:background="#9d7c7c">
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/config"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/condfig"/>
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/condfig"
+        android:background="@drawable/vol"
+        android:layout_marginTop="40dp"
+        android:id="@+id/vol"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rest"
+        android:layout_below="@+id/vol"
+        android:layout_marginTop="40dp"
+        android:id="@+id/res"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/vibrate"
+        android:layout_below="@+id/res"
+        android:layout_marginTop="30dp"
+        android:id="@+id/vib"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/mododebug"
+        android:layout_below="@+id/vib"
+        android:layout_marginTop="30dp"
+        android:id="@+id/debug"/>
+
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/save"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/debug"
+        android:id="@+id/save"
+        android:layout_marginTop="30dp"
+        android:onClick="configuracion"
+        android:backgroundTint="#000000" />
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/spinner_vol"
+        android:layout_below="@+id/condfig"
+        android:layout_centerHorizontal="true" />
+
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/shortbreak"
+        android:layout_below="@+id/vol"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/longbreak"
+       android:layout_below="@+id/vol"
+        android:layout_marginLeft="130dp"
+        android:layout_alignLeft="@+id/shortbreak"
+         />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vibracion"
+        android:id="@+id/checkBox"
+        android:layout_alignBottom="@+id/vib"
+        android:layout_alignLeft="@+id/shortbreak"
+        android:layout_alignStart="@+id/shortbreak" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/debug"
+        android:id="@+id/checkBox2"
+        android:layout_alignTop="@+id/debug"
+        android:layout_alignLeft="@+id/checkBox"
+        android:layout_alignStart="@+id/checkBox" />
+
+</RelativeLayout>
