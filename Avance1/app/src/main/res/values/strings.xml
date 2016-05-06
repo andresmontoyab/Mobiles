@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AvanceProyecto</string>
+    <string name="bienvenido">Bienvenidos</string>
+    <string name="empezar">Empezar</string>
+    <string name="opcion">Eliga 5 de las siguientes opciones.</string>
+    <string name="color">Color</string>
+    <string name="profesion">Profesiones</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="animal">Animal</string>
+    <string name="pais">Pais</string>
+    <string name="frutas">Frutas</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="cosa">Cosa</string>
+    <string name="Ingrese">Ingrese una letra</string>
+    <string name="Puntaje">Puntaje</string>
+    <string name="cont">Continuar</string>
+    <string name="total">Puntaje Total</string>
+    <string name="comida">Comida</string>
+
+
+</resources>
